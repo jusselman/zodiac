@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+  <head>
+<!-- The characters displayed -->
+    <meta charset="utf-8">
+<!-- Response Design, Media Queries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Link to CSS -->
+    <link rel="stylesheet" href="css/main.css">
+<!-- Link to BOOTSTRAP IN CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+<!-- TITLE OF PAGE -->
+    <title>Horoscope</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+          <div>
+            <div class="form-group">
+              <h1>Enter your horoscope sign</h1>
+            </div>
+            <div class="form-group">
+              <input id="userdata" class="form-control">
+            </div>
+            <div class="form-group">
+              <!-- Executes function on JS line 66 -->
+               <button type="button" onclick="horoscope()" class="btn btn-primary btn-lg">Find Sign</button>
+            </div>
+          </div>
+
+          <div>
+            <h1 id="yourSign"></h1>
+
+<!-- WHY IS THE IMAGE SOURCE JUST PARENTHESES -->
+
+            <img id="icon" src="">
+            <p id="yourHoroscope"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+       <script src="js/main.js"></script>
+  </body>
+</html>

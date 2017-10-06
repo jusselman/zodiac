@@ -1,0 +1,18 @@
+div {
+
+  width:200px;
+  height:200px;
+  
+}
+
+.first {
+  background-color: red;
+}
+
+.second {
+  background-color: blue;
+}
+
+.third {
+  background-color: green;
+}

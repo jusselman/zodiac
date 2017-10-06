@@ -1,0 +1,14 @@
+* {text-align: center;}
+#divleft {
+
+  background-color: red;
+  width:50%;
+  float: left;
+}
+
+#divright {
+
+  background-color: blue;
+  width: 50%;
+  float: right;
+}
